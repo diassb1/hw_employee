@@ -1,9 +1,8 @@
 public class MainProgrammingLanguage extends Employee {
     String mainProgrammingLanguage;
 
-    public MainProgrammingLanguage(String name, String position, int salary, String mainProgrammingLanguage) {
-        super(name, position, salary);
-        super.position = "Разработчик";
+    public MainProgrammingLanguage(String name, int salary, String mainProgrammingLanguage) {
+        super(name, "Разработчик", salary);
         this.mainProgrammingLanguage = mainProgrammingLanguage;
     }
 

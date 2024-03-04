@@ -1,9 +1,8 @@
 public class Department extends Employee {
     String department;
 
-    public Department(String name, String position, int salary, String department) {
-        super(name, position, salary);
-        super.position = "Менеджер";
+    public Department(String name, int salary, String department) {
+        super(name, "Менеджер", salary);
         this.department = department;
     }
 
